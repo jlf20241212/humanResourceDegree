@@ -1,0 +1,15 @@
+{
+     "filePath":"/business/material/vue/MaterialGroup.vue",
+      "specialFile":"",
+      "routeStatus":"false",
+      "packageName":"",
+      "vueAbsolutePath":"D:/IdeaProjects/技术中台整合提升/Odin7C框架/leaf6-odin",
+      "javaWebStatus":"false"
+}
+
+//注：
+    "filePath":配置需要生成js目录或者文件如"/business/d100insiup/d11companyregister/vue,/business/d100insiup/d71query/vue/PsQueryAll.vue"
+    "specialFile":配置不需要生成js文件的目录或者文件如"/business/d100insiup/d71query/vue/PsQueryAll.vue"
+    "routeStatus":"true"，配置路由文件生成状态 true全部重新生成 false不生成
+    "packageName":默认为com.insigma
+    "vueAbsolutePath":配置前端项目的绝对路径地址，如果为空，默认以svn上的目录结构处理

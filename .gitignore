@@ -1,0 +1,35 @@
+## java
+bin/
+classes/
+
+
+## eclipse
+.settings/
+.classpath
+.project
+
+## idea
+*.iml
+.idea/**
+HELP.md
+!.idea/dataSources.xml
+
+## vscode
+.vscode/
+.factorypath
+
+## maven:
+target/
+test-output/
+
+## system
+.DS_Store
+logs/
+*.log
+
+## vs
+.vs
+modules/**
+!modules/.gitkeep
+.gitattributes
+.toco/config.local.yml

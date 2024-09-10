@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.insigma.business.demo.dao.DemoPersonDAO">
+    <select id="selectDemoPersonById" parameterType="java.lang.String" resultType="com.insigma.business.demo.entity.DemoPerson">
+        select * from demo_person where id=#{id}
+    </select>
+</mapper>
